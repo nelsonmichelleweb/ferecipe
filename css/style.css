@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* A common addition for consistent box model handling */
+        
+        
+    }
+
+#container {
+    width: 50%;
+    background-color: white;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+    
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    justify-content: center;
+    
+}
+
+#elements {
+    padding: 50px;
+}
+
+ul {
+    padding: 0 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+ol {
+    font-family: "Outfit", sans-serif;
+    padding: 0 30px;
+}
+
+li {
+    padding: 10px 15px;
+}
+
+h1 {
+    padding: 30px 0;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+p {
+  line-height: 1.5; 
+  font-family: "Outfit", sans-serif;
+}
+
+#prep {
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    margin: 30px 0;
+    background-color: hsl(30, 10%, 34%);
+    
+}
+
+table {
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    padding-left: 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+table tbody tr:last-child td {
+        border-bottom: 0;
+    }
